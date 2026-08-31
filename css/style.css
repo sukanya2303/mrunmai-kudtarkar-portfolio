@@ -690,7 +690,7 @@ EXPERIENCE
 
 .exp-year {
 
-    font-size: 60px;
+    font-size: 20px;
 
     font-family: var(--head-font);
 
@@ -701,6 +701,7 @@ EXPERIENCE
     opacity: .15;
 
     line-height: 1;
+    
 
 }
 
@@ -727,7 +728,24 @@ EXPERIENCE
     text-transform: uppercase;
 
 }
+.year {
 
+    display: inline-block;
+    font-family: var(--para-font);
+    padding: 8px 18px;
+
+    
+    color: #f7f6f5;
+
+    margin-bottom: 20px;
+
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+}
 .exp-content h2 {
 
     font-size: clamp(28px, 3vw, 42px);
@@ -784,7 +802,7 @@ EXPERIENCE
 
 @media(max-width:768px) {
     .experience {
-        padding: 50px;
+        padding: 5px;
     }
 
     .exp-line {
@@ -812,7 +830,10 @@ EXPERIENCE
     .company {
         font-size: 13px;
     }
-
+    .year {
+        font-size: 13px;
+        padding: 5px 0;
+    }
     .exp-year {
 
         font-size: 42px;

@@ -799,6 +799,26 @@ EXPERIENCE
     background: #FFD84D;
 
 }
+.exp-content .view-work{
+    font-size: clamp(18px, 1vw, 12px);
+    font-family: var(--head-font);
+    padding: 8px 18px;
+
+    border-radius: 40px;
+
+    background: #FFD84D15;
+
+    border: 1px solid rgba(255, 216, 77, .25);
+    
+}
+.exp-content .view-work a{
+    text-decoration: none;
+    color: #FFD84D;
+    
+}
+.exp-content .view-work a:hover{
+    color: #fee178;
+}
 
 @media(max-width:768px) {
     .experience {
@@ -1745,4 +1765,73 @@ SCROLL BUTTON
 
 }
 
+}
+
+/* wp-comm work */
+.work-detail {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    gap: 25px;
+    margin: 0;
+}
+
+.work-detail > div {
+    text-align: center;
+}
+.work-detail a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--para-font);
+    font-weight: 600;
+    font-size: 20px;
+}
+.work-detail a:hover {
+    color: #555554;
+}
+
+
+.work-detail .ustudioss a{
+    font-weight: bold;
+    color: #FFD84C;
+    font-size: 30px;
+
+}
+.work-detail .ustudioss a:hover{
+    color: #f0bd05;
+    text-decoration: underline;
+}
+
+.work-detail .netflix a{
+    font-weight: bold;
+    color: #FFD84C;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.work-detail .netflix a:hover{
+    color: #f0bd05;
+    text-decoration: underline;
+}
+.link-icon {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+
+@media (max-width: 576px){
+    .work-detail{
+        padding: 0 10px;
+    }
+    .work-detail a{
+        font-size: 15px;
+    }
 }

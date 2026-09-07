@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ustudioss Work | Mrunmai Kudtarkar</title>
+
+    <meta name="description"
+        content="Mrunmai Kudtarkar is a Client Servicing & Social Media Executive with experience in VFX production, client management, digital marketing and social media.">
+
+    <meta name="keywords"
+        content="Mrunmai Kudtarkar, Client Servicing, Social Media Executive, VFX Line Producer, Portfolio, Mumbai">
+
+    <meta name="author" content="Mrunmai Kudtarkar">
+
+    <meta name="robots" content="index, follow">
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Spline+Sans:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mrunmai Kudtarkar | Portfolio">
+    <meta property="og:description"
+        content="Mrunmai Kudtarkar is a Client Servicing & Social Media Executive with experience in VFX production, client management, digital marketing and social media.">
+    <meta property="og:url" content="https://mrunmai-kudtarkar-portfolio.vercel.app/">
+    <meta property="og:image" content="https://mrunmai-kudtarkar-portfolio.vercel.app/og-image.jpg">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mrunmai Kudtarkar | Portfolio">
+    <meta name="twitter:description"
+        content="Mrunmai Kudtarkar is a Client Servicing & Social Media Executive with experience in VFX production, client management, digital marketing and social media.">
+    <meta name="twitter:image" content="https://mrunmai-kudtarkar-portfolio.vercel.app/og-image.jpg">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/mk-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="images/mk-favicon-48x48.png">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/mk-favicon-180x180.png">
+
+    <!-- Android / PWA -->
+    <link rel="icon" type="image/png" sizes="192x192" href="images/mk-favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/mk-favicon-512x512.png">
+
+
+</head>
+
+<body>
+
+    <div class="menu-overlay">
+
+        <button class="close-menu">
+            ✕
+        </button>
+
+        <nav class="menu-nav">
+
+            <a href="#hero">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#experience">Experience</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#strength">Strengths</a>
+
+            <a href="#education">Education</a>
+
+            <a href="#footer">Contact</a>
+
+        </nav>
+
+    </div>
+
+    <section class="work-detail">
+        <div class="ustudioss">
+            <a href=" https://www.youtube.com/@Ustudioss01/videos" target="_blank">Ustudioss<span class="link-icon"> ↗</span></a>
+        </div>
+
+        <div class="">
+            <a href="https://youtu.be/LmKs9U6jMSE?si=QswdVltMgqBr-4sa" target="_blank">GILLETE VENUS / FT.Prajakta Koli / Ustudioss and Post Productions
+</a>
+        </div>
+
+        <div class="stockholding">
+            <a href="https://youtu.be/QkcX449KyME?si=gKyLQu83WJX5NMcW" target="_blank">
+MOKOBARA / The Escape/ Ft Diljit Dosanjh/</a>
+        </div>
+
+        <div class="">
+            <a href="https://youtu.be/QGWqen55g64?si=AfXzvLhSZ54B_aeY">WINKIES/ Winkies Lovebite/ Ustudioss X Imagos
+</a>
+        </div>
+
+        <div class="">
+            <a href="https://youtu.be/kQvsvnwQvnA?si=dItnm8uiazsOA4jj">Oasis Fertiity /Best IVF Clinic /FREE Consultation /Ustudioss X The Notion Pictures
+
+</a>
+        </div>
+
+        <div class="netflix">
+            <a href="https://www.netflix.com/in/title/81762865?s=a&trkid=13747225&shareType=Title&shareUuid=adc55fb2-ba2c-49be-8742-317c6cc2150f&trg=wha&unifiedEntityIdEncoded=Video%3A81762865&vlang=en&clip=82712043">Netflix Project<span class="link-icon"> ↗</span></a>
+        </div>
+
+    </section>
+
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+    </script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const menu = document.querySelector(".menu-overlay");
+        const closeBtn = document.querySelector(".close-menu");
+
+        const menuTl = gsap.timeline({
+            paused: true
+        });
+
+        menuTl
+            .set(menu, {
+                visibility: "visible"
+            })
+            .to(menu, {
+                opacity: 1,
+                duration: .4
+            })
+            .from(".menu-nav a", {
+                y: 40,
+                opacity: 1,
+                stagger: .08,
+                duration: .6
+            }, "-=.2");
+
+        menuBtn.addEventListener("click", () => {
+
+            menuTl.play();
+
+        });
+
+        closeBtn.addEventListener("click", () => {
+
+            menuTl.reverse();
+
+        });
+
+
+        document.querySelectorAll(".menu-nav a").forEach(link => {
+
+            link.addEventListener("click", (e) => {
+
+                e.preventDefault();
+
+                const target = document.querySelector(link.getAttribute("href"));
+
+                // Close menu first
+                menuTl.reverse();
+
+                // Wait for the menu animation to finish
+                setTimeout(() => {
+
+                    target.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+
+                }, 300);
+
+            });
+
+        });
+    </script>
+</body>
+</html>
